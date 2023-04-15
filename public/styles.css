@@ -1,0 +1,46 @@
+.custom-font-Size {
+    font-size: 1.2vmax;
+  }
+  
+  .heading {
+    font-size: 3vmax;
+  }
+  
+  .subText {
+    font-size: 1.5vmax;
+  }
+ 
+  .custom-fontSize {
+    font-size: 0.8rem;
+  }
+
+
+
+
+
+/* .pagination */
+
+
+
+  /* In App.js pagination buttons */
+  button.active{
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+  }
+
+  button:not(.active){
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+  }
+  
+  @media screen and (max-width:400px) {
+    /* .pagination{
+      width:80vmin;
+    } */
+
+    .searchInput{
+      width:80vmin;
+    }
+  }
